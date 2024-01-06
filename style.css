@@ -182,16 +182,6 @@ section{
     height: 80vh;
 }
 
-/*
-
-.section__pic-container{
-    display: flex;
-    height: 400px;
-    width: 400px;
-    margin: auto 0;
-}
-
-*/
 
 
 .section__text{
@@ -282,7 +272,7 @@ section{
 
 /*ABOUT SECTION */
 #about {
-    position: relative;
+    position: block;
 }
 
 .about-containers {
@@ -336,6 +326,11 @@ section{
     margin: auto 0;
 }
 
+.text-container{
+    display: block;
+    margin-bottom: 1rem;
+    line-height: 2.2em;
+}
 /* EXPERIENCE SECTION */
 #experience {
     position: relative;
@@ -349,19 +344,14 @@ section{
   }
   
   .experience-details-container {
-    display: flex;
+    display: grid;
     justify-content: center;
     flex-direction: column; 
   }
+
+ 
+
   
-  .article-container {
-    display: flex;
-    text-align: initial;
-    flex-wrap: wrap;
-    flex-direction: row;
-    gap: 2.5rem;
-    justify-content: space-around;
-  }
   
   article {
     display: flex;
@@ -378,8 +368,8 @@ section{
 /* PROJECTS SECTION */
 
 #projects {
-    position: relative;
-    height: 150vh;
+    position: grid;
+    height: flex;
 }
 
 .color-container{
@@ -403,6 +393,15 @@ section{
     border-color: rgb(163, 163, 163);
 }
 
+.article-container{
+    width: 400px;
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2rem;
+    border-color: rgb(163, 163, 163)
+}
 
 /* CONTACT */
 #contact{
@@ -456,17 +455,3 @@ footer {
 footer p{
     text-align: center;
 }
-/* NOTES 
- .(whatever) targets the "value" 
-    the colon (:) specified a certain characteristic for the orange part, ex hovering for logo
-    ex: for class="logo" in   <div class="logo">Carmelli Dao</div>, class is the attribute and
-    logo is the value
-
-    flex direction- determines where flex items go 
-    flex items- direct children of the flex container
-
-    to do a comment in html: for a tag before tag: <!--
-    after tag /> -->
-
-    <a> tag creates a hyperlink
-*/

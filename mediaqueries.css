@@ -3,13 +3,10 @@
         height: 50vh;
         margin-bottom: 1rem;
     }
-    .about-containers{
+    .about-containers {
         flex-wrap: wrap;
     }
 }
-
-
-
 
 
 
@@ -104,14 +101,6 @@
             text-align: center;
         }
 
-        /*
-        .section__pic-container {
-            width: auto;
-            height: 46vw;
-            justify-content: center;
-    
-        }
-        */
 
         .section__text__p2 {
             font-size: 1.25rem;
@@ -129,11 +118,6 @@
 }
     
 
-/* 
 
 
 
-*/
-
-
-/* when media screen is less than 1200 pixels, desktop nav will dissapear */ 
